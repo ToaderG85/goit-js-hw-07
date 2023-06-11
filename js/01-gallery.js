@@ -39,7 +39,7 @@ galleryItems.forEach((item) => {
     galleryElem.append(newLi);
 });
 
-const aElems = document.querySelectorAll("a");
+const aElems = document.querySelectorAll("ul a");
 aElems.forEach((elem) => {
     elem.addEventListener("click", (event) => {
         event.preventDefault();
